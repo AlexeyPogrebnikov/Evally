@@ -1,3 +1,7 @@
 src/.vs/
 src/Evally/bin/
 src/Evally/obj/
+src/Evally.Tests/bin/
+src/Evally.Tests/obj/
+
+src/Evally.sln.DotSettings.user
