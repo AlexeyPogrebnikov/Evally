@@ -4,9 +4,11 @@
 	{
 		public void Run(string code, Context context)
 		{
-			string methodName = code.Replace("()", string.Empty);
+			var script = new Script(code);
 
-			context.GetMethod(methodName).Invoke();
+			script.Tokenize();
+			script.Parse();
+			script.Eval(context);
 		}
 	}
 }

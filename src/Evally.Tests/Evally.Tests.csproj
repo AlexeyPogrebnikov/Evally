@@ -13,4 +13,9 @@
     <ProjectReference Include="..\Evally\Evally.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Lexing\" />
+    <Folder Include="Parsing\" />
+  </ItemGroup>
+
 </Project>
